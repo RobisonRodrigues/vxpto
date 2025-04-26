@@ -199,7 +199,7 @@ plt.xticks(rotation=30)
 plt.tight_layout()
 plt.show()
 ```
-#### **🧩 5 → Alteração na tabela (df_merge).**
+### **🧩 5 → Alteração na tabela (df_merge).**
 
 ✅ Alteração da coluna `valor` para `percentual_aumento`.
 ```python
@@ -377,7 +377,7 @@ plt.show()
 df_vendedor.to_csv('relatorio_vendedor.csv', index=False)
 df_categoria.to_csv('relatorio_categoria.csv', index=False)
 ```
-#### **🛠️ 5 → Estruturação utilizando banco de dados relacional**
+#### **🛠️ 6 → Estruturação utilizando banco de dados relacional**
 ✅ Bibliotecas → `PostgreSQL`, `psycopg2`, `ipython-sql`
 ✅ Conexão ao PostgreSQL 
 ✅ Consultas com SQL
@@ -455,7 +455,7 @@ crsr.close()
 import prettytable
 print(prettytable.__version__)
 ```
-**5.1 → Consultas ao banco de dados `vendas_final`**
+**6.1 → Consultas ao banco de dados `vendas_final`**
 ```python
 # total de vendas por categoria
 ```
