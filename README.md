@@ -28,6 +28,7 @@ Este projeto destaca não somente o uso de Python em contexto empresarial, como 
 #### 3º Instalação das Bibliotecas que serão utilizadas.
      pip install pandas numpy chardet matplotlib seaborn psycopg2 ipython-sql
 ### **📥 1 → Importação das bibliotecas**
+```python
 import pandas as pd
 import numpy as np
 import chardet
