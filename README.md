@@ -27,14 +27,14 @@ Este projeto destaca não somente o uso de Python em contexto empresarial, como 
      .\vendas_xpto\Scripts\activate
 #### 3º Instalação das Bibliotecas que serão utilizadas.
      pip install pandas numpy chardet matplotlib seaborn psycopg2 ipython-sql
-### **1 → Importação das bibliotecas**
+### **📥 1 → Importação das bibliotecas**
 import pandas as pd
 import numpy as np
 import chardet
 import matplotlib.pyplot as plt
 import seaborn as sns
 import psycopg2
-### **2 → Verificar encoding dos arquivos CSV**
+### **🔍 2 → Verificar encoding dos arquivos CSV**
 
 **obs:** Biblioteca `chardet` foi utilizada para a verificação.
 rawdata = open('base_vendas.csv', 'rb').read()
@@ -43,10 +43,10 @@ print('Encoding detectado:', encoding)
 rawdata = open('categorias_valores.csv', 'rb').read()
 encoding = chardet.detect(rawdata)['encoding']
 print('Encoding detectado: ', encoding)
-### **2.1 → Criação do Dataframe a partir do encoding detectado**
+##### **2.1 → Criação do Dataframe a partir do encoding detectado**
 df_vendas = pd.read_csv('base_vendas.csv', encoding="ISO-8859-1", sep=';')
 df_categorias = pd.read_csv('categorias_valores.csv', encoding="utf-8", sep=',')
-### **3 → Exploração da base de dados**
+### **💻 3 → Exploração da base de dados**
 # Verificando as linhas iniciais
 df_vendas.head()
 # Verificando as linhas iniciais
@@ -85,11 +85,11 @@ print(lista_vendedor)
 df_vendas['categoria_produto'].value_counts()
 # Estatística da categoria do produto por valor de venda.
 df_vendas.groupby('categoria_produto')['valor_venda'].describe()
-### **4 → Análise Gráfica**
+### **📊 4 → Análise Gráfica**
 
 Nesta etapa, utilizamos gráficos para visualizar os dados e identificar padrões, tendências e possíveis valores atípicos (outliers)
 
-#### 4.1 Histograma de distribuição dos Valores de Venda
+##### **4.1 Histograma de distribuição dos Valores de Venda**
 
 **Resumo do fluxo**
 
@@ -148,7 +148,7 @@ plt.ylabel('Valor da Venda (R$)')
 plt.xticks(rotation=30)
 plt.tight_layout()
 plt.show()
-#### **5 → Alteração na tabela (df_merge).**
+#### **🧩 5 → Alteração na tabela (df_merge).**
 
 ✅ Alteração da coluna `valor` para `percentual_aumento`.
 
@@ -296,7 +296,7 @@ plt.show()
     # Outro incetivos, como: beneficios, como utilizar...
 df_vendedor.to_csv('relatorio_vendedor.csv', index=False)
 df_categoria.to_csv('relatorio_categoria.csv', index=False)
-#### **5 → Estruturação utilizando banco de dados relacional**
+#### **🛠️ 5 → Estruturação utilizando banco de dados relacional**
 ✅ Bibliotecas → `PostgreSQL`, `psycopg2`, `ipython-sql`
 ✅ Conexão ao PostgreSQL 
 ✅ Consultas com SQL   
