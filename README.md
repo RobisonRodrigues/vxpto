@@ -35,6 +35,7 @@ import chardet
 import matplotlib.pyplot as plt
 import seaborn as sns
 import psycopg2
+```
 ### **🔍 2 → Verificar encoding dos arquivos CSV**
 
 **obs:** Biblioteca `chardet` foi utilizada para a verificação.
