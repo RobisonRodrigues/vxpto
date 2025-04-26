@@ -39,54 +39,98 @@ import psycopg2
 ### **🔍 2 → Verificar encoding dos arquivos CSV**
 
 **obs:** Biblioteca `chardet` foi utilizada para a verificação.
+```python
 rawdata = open('base_vendas.csv', 'rb').read()
 encoding = chardet.detect(rawdata)['encoding']
 print('Encoding detectado:', encoding)
+```
+```python
 rawdata = open('categorias_valores.csv', 'rb').read()
 encoding = chardet.detect(rawdata)['encoding']
 print('Encoding detectado: ', encoding)
+```
 ##### **2.1 → Criação do Dataframe a partir do encoding detectado**
+```python
 df_vendas = pd.read_csv('base_vendas.csv', encoding="ISO-8859-1", sep=';')
+```
+```python
 df_categorias = pd.read_csv('categorias_valores.csv', encoding="utf-8", sep=',')
+```
 ### **💻 3 → Exploração da base de dados**
 # Verificando as linhas iniciais
+```python
 df_vendas.head()
+```
 # Verificando as linhas iniciais
+```python
 df_categorias.head(2)
+```
+```python
 df_categorias.rename(columns={'Categoria': 'categoria'}, inplace=True)
+```
 # Tipos de dados das colunas
+```python
 df_vendas.dtypes
+```
 # Tipos de dados das colunas
+```python
 df_categorias.dtypes
+```
 # Informações da base de dados, que incluem: colunas, linhas e nulos
+```python
 df_vendas.info()
+```
 # Informações da base de dados, que incluem: colunas, linhas e nulos
+```python
 df_categorias.info()
+```
 # Numero de nulos
+```python
 df_vendas.isnull().sum()
+```
 # Numero de nulos
+```python
 df_categorias.isnull().sum()
+```
 # Estatística das colunas númericas de vendas
+```python
 df_vendas['valor_venda'].describe()
+```
 # Estatistica das colunas textuais do dataframe de vendas.
+```python
 df_vendas.describe(include=['object'])
+```
 # Estatística das colunas númericas de categorias
+```python
 df_categorias.describe()
+```
 # Estatistica das colunas textuais do dataframe de categorias.
+```python
 df_categorias.describe(include=['object'])
+```
 # Valores únicos da coluna 'Categoria' do dataframe de categorias.
+```python
 lista_categoria = list(df_categorias['categoria'].unique())
 print(lista_categoria)
+```
 # Valores únicos da coluna 'categoria_produto' do dataframe de vendas.
+```python
 lista_produto = list(df_vendas['categoria_produto'].unique())
 print(lista_produto)
+```
 # Valores únicos da coluna 'nome_vendedor' do dataframe de vendas.
+```python
 lista_vendedor = list(df_vendas['nome_vendedor'].unique())
 print(lista_vendedor)
+```
 # Valores únicos da coluna 'categoria_produto' do dataframe de vendas, fazendo a contagem nos resultados.
+```python
 df_vendas['categoria_produto'].value_counts()
+```
 # Estatística da categoria do produto por valor de venda.
+```python
 df_vendas.groupby('categoria_produto')['valor_venda'].describe()
+```
 ### **📊 4 → Análise Gráfica**
 
 Nesta etapa, utilizamos gráficos para visualizar os dados e identificar padrões, tendências e possíveis valores atípicos (outliers)
@@ -98,6 +142,7 @@ Nesta etapa, utilizamos gráficos para visualizar os dados e identificar padrõe
 
 ✅ Quantidade de vendas em cada faixa de preço.
 ✅ Padrões de vendas, identificando faixas com maior e menor frequência.
+```python
 plt.figure(figsize=(10, 5))
 n, bins, patches = plt.hist(df_vendas['valor_venda'], bins=20, color='skyblue', edgecolor='black')
 
@@ -114,6 +159,7 @@ for i in range(len(patches)):
 
 plt.tight_layout()
 plt.show()
+```
 ##### 4.2 Gráfico de barras por marca de produto
 
 **Resumo do fluxo**
@@ -121,6 +167,7 @@ plt.show()
 ✅ Agrupamento por marca.
 ✅ Soma dos valores de venda por marca.
 ✅ Ordenamento dos valores de venda para analisar melhor.
+```python
 df_marca = df_vendas.groupby('marca_produto')['valor_venda'].sum().sort_values()
 print(df_marca)
 fig, ax = plt.subplots(figsize=(10, 5))
@@ -138,10 +185,11 @@ for barra in barras:
 
 plt.tight_layout()
 plt.show()
+```
 ##### 4.3 Boxplot por categoria 
 
 ✅ Visualizar dispersão dos valores. ✅ Observa padrões e variabilidade.
-
+```python
 plt.figure(figsize=(10, 5))
 sns.boxplot(data=df_vendas, x='categoria_produto', y='valor_venda', palette='Set2')
 plt.title('Distribuição de Valores de Venda por Categoria')
@@ -150,20 +198,26 @@ plt.ylabel('Valor da Venda (R$)')
 plt.xticks(rotation=30)
 plt.tight_layout()
 plt.show()
+```
 #### **🧩 5 → Alteração na tabela (df_merge).**
 
 ✅ Alteração da coluna `valor` para `percentual_aumento`.
-
+```python
 df_categorias.rename(columns={'Valor': 'percentual_aumento'}, inplace=True)
 
 df_merge = df_vendas.merge(df_categorias, left_on="categoria_produto", right_on="categoria", how="left")
 df_merge.head()
+```
 ✅ Inserção de uma nova coluna no `df_merge` chamado `venda_final` aplicando o percentual de aumento.
+```python
 df_merge['venda_final'] = df_merge['valor_venda'] * (1 + df_merge['percentual_aumento'] / 100)
 df_merge.head()
+```
 ✅ Visualização agrupado por `categoria` gerando um gráfico comparando os valores originais e com aumento.
+```python
 # Agrupando os dados
 df_categoria = df_merge.groupby('categoria_produto')[['valor_venda', 'venda_final']].sum().reset_index()
+
 
 # Parâmetros do gráfico
 x = np.arange(len(df_categoria))
@@ -194,18 +248,25 @@ for barra in barras2:
 
 plt.tight_layout()
 plt.show()
+```
 ✅ Calculo e adição de uma nova coluna `comissão` com 2,5% para cada vendedor.
+```python
 # Agrupamento por nome do vendedor.
 
 df_vendedor = df_merge.groupby('nome_vendedor')[['valor_venda']].sum().reset_index()
 df_vendedor
+```
+```python
 # Calculo da comissão de 2,5% para cada vendedor
 
 df_vendedor['comissao'] = df_vendedor['valor_venda'] * 0.025
 df_vendedor
+```
 ✅ Gráfico com a comissão dos vendedores de acordo com o cálculo anterior.
+```python
 # Ordena os dados
 df_vendedor_ordenado = df_vendedor.sort_values(by='comissao', ascending=False)
+
 
 # Cria um mapa de cores com base na comissão
 norm = plt.Normalize(df_vendedor_ordenado['comissao'].min(), df_vendedor_ordenado['comissao'].max())
@@ -235,18 +296,25 @@ ax.set_axisbelow(True)
 
 plt.tight_layout()
 plt.show()
+```
 ✅ Transformação da coluna `data_venda` em formato de data e adição de uma nova coluna `ano` com o ano da venda.
+```python
 df_merge['data_venda'] = pd.to_datetime(df_merge['data_venda'], format='%d/%m/%Y') # Converte em um formato conhecido pelo Pandas e expecifica o formato da data na coluna indicada
 df_merge['ano'] = df_merge['data_venda'].dt.year # Extrai apenas o ano da coluna indicada
 df_merge[['data_venda', 'ano']].head()
+```
 ✅ Cálculo do total de vendas por ano.
+```python
 # Agrupamento da coluna ano para o cálculo  do `valor_venda`.
 
 df_merge.groupby('ano')['valor_venda'].sum().reset_index()
+```
 
 ✅ Gráfico de pizza com a distribuição percentual de vendas por categorias.
+```python
 # Agrupar os dados de vendas por categoria
 df_categoria_pizza = df_merge.groupby('categoria_produto')['valor_venda'].sum().sort_values(ascending=False)
+
 
 # Cores e explosão na maior fatia
 cores = ['#2ca02c', '#1f77b4', '#ff7f0e', '#d62728']
@@ -268,11 +336,15 @@ plt.title('Distribuição de Vendas por Categoria', fontsize=15)
 plt.axis('equal')
 plt.tight_layout()
 plt.show()
+```
 **✅ Insights baseados nas análises realizadas anteriormente**
+```python
 # Ditribuição de vendas concentrada entre os valores: 0 a 500 reais e 1500 a 2000
         # O que sugere uma maior aceitação desses produtos
         # Acima de 3000 reais, pela baixa verificara sugere um público mais especifico ou 
             # menor demanda.
+```
+```python
 # 3 marcas mais expressivas → Brastemp(R$ 99.208), Samsung (R$ 76.490) e Consul (R$ 60.687)
 # 3 marcas menos expressivas → LG (R$ 679), Sony (R$ 699), Philco (R$ 1.937)
 
@@ -281,12 +353,16 @@ plt.show()
         # Preço
         # Marketing
         # Baixa aceitação
+```
+```python
 # Diferença na comissão dos vendedores pode indicar:
     # Tipo de produto vendido
     # Região a qual está ligada
 
 # OBS: investigar quais produtos mais lucrativos de cada região 
 #      e se estão sendo estimulados pelos vendedores
+```
+```python
 # Eletroportáteis representam pouco mais de 5% das vendas, esse problema pode ser devido:
     # Público-alvo
     # Marketing
@@ -296,13 +372,17 @@ plt.show()
     # Promoções sazonais
     # Adição de combos
     # Outro incetivos, como: beneficios, como utilizar...
+```
+```python
 df_vendedor.to_csv('relatorio_vendedor.csv', index=False)
 df_categoria.to_csv('relatorio_categoria.csv', index=False)
+```
 #### **🛠️ 5 → Estruturação utilizando banco de dados relacional**
 ✅ Bibliotecas → `PostgreSQL`, `psycopg2`, `ipython-sql`
 ✅ Conexão ao PostgreSQL 
-✅ Consultas com SQL   
-# Conexão com banco de dados
+✅ Consultas com SQL
+```python
+# Conexão com banco de dados (PostgreSQL)
 try:
     conn = psycopg2.connect(
         host="localhost",
@@ -312,19 +392,25 @@ try:
     )
     print("Conexão bem sucedida!")
 except Exception as e:
-    print("Erro ao conectar ao banco de dados: ", e) 
+    print("Erro ao conectar ao banco de dados: ", e)
+```
+```python
 #criando um cursor
 
 crsr = conn.cursor()
+```
 ✅ Criação da tabelas `vendas_final` via SQL  
 ✅ Inserção dos dados de venda linha a linha a partir do DataFrame
+```python
 # Carregar extensões SQL 
-%reload_ext sql
-
+%load_ext sql
+```
+```python
 # Conexão com o banco de dados
-%sql postgresql://postgres:%Robim1997%@localhost/vendas_xpto
+%sql postgresql://postgres:´senha´@localhost/´nome_banco_dados´
 %%sql
-
+```
+```python
 CREATE TABLE IF NOT EXISTS public.vendas_final 
 (
     id serial PRIMARY KEY,
@@ -336,7 +422,8 @@ CREATE TABLE IF NOT EXISTS public.vendas_final
     nome_vendedor TEXT NOT NULL,          
     data_venda DATE NOT NULL
 );
-
+```
+```python
 tabela = [df_merge]
 
 for df in tabela:  
@@ -357,30 +444,46 @@ conn.commit()
 print("Dados salvos com sucesso!")
 
 crsr.close()
+```
+```python
 # Desfaz as mudanças em caso de erro → `conn.rollback()`
+```
+```python
 # O ipython-sql foi desenvolvido para funcionar com versões anteriores do PrettyTable.
 # pip install prettytable==2.4.0
 
 import prettytable
 print(prettytable.__version__)
+```
 **5.1 → Consultas ao banco de dados `vendas_final`**
+```python
 # total de vendas por categoria
+```
+```python
 %%sql
 SELECT categoria, SUM(valor_venda) AS total_vendas
 FROM vendas_final
 GROUP BY categoria
-ORDER BY total_vendas DESC; 
+ORDER BY total_vendas DESC;
+```
+```python
 # 3 vendedores que mais venderam
+```
+```python
 %%sql
 SELECT nome_vendedor, SUM(valor_venda) AS total_vendas
 FROM vendas_final
 GROUP BY nome_vendedor
 ORDER BY total_vendas DESC
 LIMIT 3;
+```
+```python
 # Média final de venda
 %%sql
 SELECT AVG(venda_final)::numeric(18,2) AS media_valor_final
 FROM vendas_final;
+```
+```python
 # Produtos com maior faturamento
 %%sql
 SELECT nome_produto, SUM(venda_final) AS total_venda_final
@@ -388,6 +491,8 @@ FROM vendas_final
 GROUP BY nome_produto
 ORDER BY total_venda_final DESC
 LIMIT 5;
+```
+```python
 # Receita por ano
 %%sql
 SELECT 
@@ -396,3 +501,4 @@ SELECT
 FROM vendas_final
 GROUP BY ano
 ORDER BY ano DESC;
+```
