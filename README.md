@@ -529,3 +529,6 @@ GROUP BY ano
 ORDER BY ano DESC;
 ```
 ![Image](https://github.com/user-attachments/assets/fecc71e2-bf40-43f8-856a-615d88aa2628)
+
+
+![Image](https://github.com/user-attachments/assets/3729e2b2-787a-4222-bf23-43fd13ccb360)
