@@ -57,78 +57,78 @@ df_vendas = pd.read_csv('base_vendas.csv', encoding="ISO-8859-1", sep=';')
 df_categorias = pd.read_csv('categorias_valores.csv', encoding="utf-8", sep=',')
 ```
 ### **💻 3 → Exploração da base de dados**
-# Verificando as linhas iniciais
 ```python
+# Verificando as linhas iniciais
 df_vendas.head()
 ```
-# Verificando as linhas iniciais
 ```python
+# Verificando as linhas iniciais
 df_categorias.head(2)
 ```
 ```python
 df_categorias.rename(columns={'Categoria': 'categoria'}, inplace=True)
 ```
-# Tipos de dados das colunas
 ```python
+# Tipos de dados das colunas
 df_vendas.dtypes
 ```
-# Tipos de dados das colunas
 ```python
+# Tipos de dados das colunas
 df_categorias.dtypes
 ```
-# Informações da base de dados, que incluem: colunas, linhas e nulos
 ```python
+# Informações da base de dados, que incluem: colunas, linhas e nulos
 df_vendas.info()
 ```
-# Informações da base de dados, que incluem: colunas, linhas e nulos
 ```python
+# Informações da base de dados, que incluem: colunas, linhas e nulos
 df_categorias.info()
 ```
-# Numero de nulos
 ```python
+# Numero de nulos
 df_vendas.isnull().sum()
 ```
-# Numero de nulos
 ```python
+# Numero de nulos
 df_categorias.isnull().sum()
 ```
-# Estatística das colunas númericas de vendas
 ```python
+# Estatística das colunas númericas de vendas
 df_vendas['valor_venda'].describe()
 ```
-# Estatistica das colunas textuais do dataframe de vendas.
 ```python
+# Estatistica das colunas textuais do dataframe de vendas.
 df_vendas.describe(include=['object'])
 ```
-# Estatística das colunas númericas de categorias
 ```python
+# Estatística das colunas númericas de categorias
 df_categorias.describe()
 ```
-# Estatistica das colunas textuais do dataframe de categorias.
 ```python
+# Estatistica das colunas textuais do dataframe de categorias.
 df_categorias.describe(include=['object'])
 ```
-# Valores únicos da coluna 'Categoria' do dataframe de categorias.
 ```python
+# Valores únicos da coluna 'Categoria' do dataframe de categorias.
 lista_categoria = list(df_categorias['categoria'].unique())
 print(lista_categoria)
 ```
-# Valores únicos da coluna 'categoria_produto' do dataframe de vendas.
 ```python
+# Valores únicos da coluna 'categoria_produto' do dataframe de vendas.
 lista_produto = list(df_vendas['categoria_produto'].unique())
 print(lista_produto)
 ```
-# Valores únicos da coluna 'nome_vendedor' do dataframe de vendas.
 ```python
+# Valores únicos da coluna 'nome_vendedor' do dataframe de vendas.
 lista_vendedor = list(df_vendas['nome_vendedor'].unique())
 print(lista_vendedor)
 ```
-# Valores únicos da coluna 'categoria_produto' do dataframe de vendas, fazendo a contagem nos resultados.
 ```python
+# Valores únicos da coluna 'categoria_produto' do dataframe de vendas, fazendo a contagem nos resultados.
 df_vendas['categoria_produto'].value_counts()
 ```
-# Estatística da categoria do produto por valor de venda.
 ```python
+# Estatística da categoria do produto por valor de venda.
 df_vendas.groupby('categoria_produto')['valor_venda'].describe()
 ```
 ### **📊 4 → Análise Gráfica**
