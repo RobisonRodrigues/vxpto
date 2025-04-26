@@ -133,7 +133,7 @@ df_vendas.groupby('categoria_produto')['valor_venda'].describe()
 ```
 ### **📊 4 → Análise Gráfica**
 
-Nesta etapa, utilizamos gráficos para visualizar os dados e identificar padrões, tendências e possíveis valores atípicos (outliers)
+Foram utilizados gráficos para visualizar os dados e identificar padrões, tendências e possíveis valores atípicos (outliers)
 
 ##### **4.1 Histograma de distribuição dos Valores de Venda**
 
