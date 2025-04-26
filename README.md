@@ -4,8 +4,8 @@
 A empresa XPTO está em expansão e busca modernizar suas estratégias comerciais com base em análises de dados. 
 
 Para isso, o departamento de vendas forneceu dois arquivos:
-- `base_vendas.csv`: uma lista detalhada de vendas realizadas.
-- `categorias_valores.csv`: com os percentuais de aumento dos produtos por categoria.
+- `base_vendas.csv`: → lista detalhada de vendas realizadas.
+- `categorias_valores.csv`: → percentuais de aumento dos produtos por categoria.
 
 #### 🎯 Objetivos
 - Aplicar os percentuais de aumento às vendas e gerar uma nova coluna com os valores ajustados.
@@ -36,7 +36,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import psycopg2
 ```
-### **🔍 2 → Verificar encoding dos arquivos CSV**
+### **🔍 2 → Verificação do encoding dos arquivos CSV**
 
 **obs:** Biblioteca `chardet` foi utilizada para a verificação.
 ```python
