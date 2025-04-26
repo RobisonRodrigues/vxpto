@@ -44,6 +44,7 @@ rawdata = open('base_vendas.csv', 'rb').read()
 encoding = chardet.detect(rawdata)['encoding']
 print('Encoding detectado:', encoding)
 ```
+![Image](https://github.com/user-attachments/assets/7fe36f13-ef26-4c8e-ae6f-3052ad469a5c)
 ```python
 rawdata = open('categorias_valores.csv', 'rb').read()
 encoding = chardet.detect(rawdata)['encoding']
