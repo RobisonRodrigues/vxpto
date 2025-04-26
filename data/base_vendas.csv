@@ -1,0 +1,458 @@
+cod_produto;nome_produto;categoria_produto;segmento_produto;marca_produto;cod_vendedor;nome_vendedor;cod_loja;cidade_loja;estado_loja;data_venda;valor_venda
+SKU-0000001;LG K10 TV Power;Celulares;Corporativo;LG;1009;Ana Teixeira;SP8821;São Paulo;São Paulo;04/10/2012;679
+SKU-0000002;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8821;São Paulo;São Paulo;01/01/2012;832
+SKU-0000003;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8821;São Paulo;São Paulo;02/02/2012;790
+SKU-0000004;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;03/03/2012;765.32
+SKU-0000005;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Electrolux;1004;Artur Moreira;SP8821;São Paulo;São Paulo;04/04/2012;459.89
+SKU-0000006;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1005;Rodrigo Fagundes;SP8821;São Paulo;São Paulo;04/05/2012;590.98
+SKU-0000007;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8821;São Paulo;São Paulo;04/06/2012;1000.91
+SKU-0000008;Geladeira Duplex;Eletrodomésticos;Doméstico;Electrolux;1007;Fernando Zambrini;A9990;Belo Horizonte;Minas Gerais;04/07/2012;1229
+SKU-0000009;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;04/08/2012;1300
+SKU-0000010;Geladeira Duplex;Eletrodomésticos;Doméstico;Electrolux;1002;André Pereira;SP8821;São Paulo;São Paulo;04/09/2012;1290
+SKU-0000011;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1009;Ana Teixeira;SP8821;São Paulo;São Paulo;04/09/2012;1287
+SKU-0000012;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;A9990;Belo Horizonte;Minas Gerais;04/11/2012;1651
+SKU-0000013;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8821;São Paulo;São Paulo;04/11/2012;1100
+SKU-0000014;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;04/12/2012;1190
+SKU-0000015;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1004;Artur Moreira;SP8821;São Paulo;São Paulo;04/12/2012;1190.98
+SKU-0000016;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Electrolux;1005;Rodrigo Fagundes;A9990;Belo Horizonte;Minas Gerais;02/01/2013;877
+SKU-0000017;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8821;São Paulo;São Paulo;02/02/2013;982
+SKU-0000018;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;SP8821;São Paulo;São Paulo;02/03/2013;872
+SKU-0000019;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Electrolux;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;02/04/2013;799
+SKU-0000020;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;SP8821;São Paulo;São Paulo;02/05/2013;899
+SKU-0000021;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1009;Ana Teixeira;SP8821;São Paulo;São Paulo;02/06/2013;799
+SKU-0000022;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8821;São Paulo;São Paulo;02/07/2013;987
+SKU-0000023;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8821;São Paulo;São Paulo;02/08/2013;699.9
+SKU-0000024;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Electrolux;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;02/09/2013;789.23
+SKU-0000025;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/10/2013;789.34
+SKU-0000026;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Brastemp;1005;Rodrigo Fagundes;SP8821;São Paulo;São Paulo;02/11/2013;764.2
+SKU-0000027;Lavadora 11 Kg;Eletrodomésticos;Doméstico;Electrolux;1006;Josias Silva;SP8821;São Paulo;São Paulo;02/12/2013;1245.9
+SKU-0000028;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;SP8821;São Paulo;São Paulo;02/01/2013;1345.87
+SKU-0000029;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;02/02/2013;1234.12
+SKU-0000030;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;SP8821;São Paulo;São Paulo;02/03/2013;1245.9
+SKU-0000031;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1001;Maria Fernandes;SP8821;São Paulo;São Paulo;02/04/2013;1345.87
+SKU-0000032;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1001;Maria Fernandes;SP8821;São Paulo;São Paulo;02/05/2013;1234.12
+SKU-0000033;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1001;Maria Fernandes;SP8823;São Paulo;São Paulo;02/06/2013;1245.9
+SKU-0000034;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;SP8823;São Paulo;São Paulo;02/07/2013;1345.87
+SKU-0000035;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;02/08/2013;1234.12
+SKU-0000036;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1004;Artur Moreira;SP8823;São Paulo;São Paulo;02/09/2013;1245.9
+SKU-0000037;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1005;Rodrigo Fagundes;SP8823;São Paulo;São Paulo;02/10/2013;1345.87
+SKU-0000038;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/11/2013;1234.12
+SKU-0000039;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;SP8823;São Paulo;São Paulo;02/12/2013;1245.9
+SKU-0000040;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1008;Aline Sutter;R1296;Rio de Janeiro;Rio de Janeiro;01/01/2012;1345.87
+SKU-0000041;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1009;Ana Teixeira;R1296;Rio de Janeiro;Rio de Janeiro;01/02/2012;1234.12
+SKU-0000042;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1001;Maria Fernandes;V7654;Vitória;Espírito Santo;01/03/2012;1245.9
+SKU-0000043;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1001;Maria Fernandes;A9990;Belo Horizonte;Minas Gerais;01/04/2012;1345.87
+SKU-0000044;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1002;André Pereira;SP8823;São Paulo;São Paulo;01/05/2012;1234.12
+SKU-0000045;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;01/06/2012;1245.9
+SKU-0000046;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1004;Artur Moreira;SP8823;São Paulo;São Paulo;01/07/2012;1345.87
+SKU-0000047;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1005;Rodrigo Fagundes;SP8823;São Paulo;São Paulo;01/08/2012;1234.12
+SKU-0000048;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1006;Josias Silva;R1296;Rio de Janeiro;Rio de Janeiro;01/09/2012;1245.9
+SKU-0000049;Notebook Dell 8 GB;Eletrônicos;Corporativo;Dell;1007;Fernando Zambrini;V7654;Vitória;Espírito Santo;01/10/2012;1345.87
+SKU-0000050;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1008;Aline Sutter;SP8823;São Paulo;São Paulo;01/11/2012;1234.12
+SKU-0000051;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1009;Ana Teixeira;SP8823;São Paulo;São Paulo;01/12/2012;900
+SKU-0000052;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/01/2013;999
+SKU-0000053;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/02/2013;1234
+SKU-0000054;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;02/03/2013;998
+SKU-0000055;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1004;Artur Moreira;SP8823;São Paulo;São Paulo;02/04/2013;999
+SKU-0000056;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1005;Rodrigo Fagundes;SP8823;São Paulo;São Paulo;02/05/2013;999.99
+SKU-0000057;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1006;Josias Silva;V7654;Vitória;Espírito Santo;02/06/2013;982
+SKU-0000058;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1007;Fernando Zambrini;R1296;Rio de Janeiro;Rio de Janeiro;02/07/2013;1002
+SKU-0000059;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;02/08/2013;376
+SKU-0000060;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1002;André Pereira;A9990;Belo Horizonte;Minas Gerais;02/09/2013;899
+SKU-0000061;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1009;Ana Teixeira;SP8823;São Paulo;São Paulo;02/10/2013;799
+SKU-0000062;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/11/2013;1356
+SKU-0000063;Desktop HP 16 GB;Eletrônicos;Corporativo;HP;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/12/2013;1788
+SKU-0000064;Micro-Ondas;Eletrodomésticos;Industrial;Consul;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;01/01/2012;459
+SKU-0000065;Grill;Eletrodomésticos;Doméstico;Panasonic;1004;Artur Moreira;SP8823;São Paulo;São Paulo;01/02/2012;234
+SKU-0000066;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1005;Rodrigo Fagundes;SP8823;São Paulo;São Paulo;01/03/2012;345
+SKU-0000067;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1006;Josias Silva;SP8823;São Paulo;São Paulo;01/04/2012;1345
+SKU-0000068;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1007;Fernando Zambrini;SP8823;São Paulo;São Paulo;01/05/2012;675
+SKU-0000069;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;01/06/2012;123
+SKU-0000070;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1002;André Pereira;SP8823;São Paulo;São Paulo;01/07/2012;455
+SKU-0000071;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1009;Ana Teixeira;V7654;Vitória;Espírito Santo;01/08/2012;566
+SKU-0000072;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1006;Josias Silva;R1296;Rio de Janeiro;Rio de Janeiro;01/09/2012;1200
+SKU-0000073;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1006;Josias Silva;A9990;Belo Horizonte;Minas Gerais;01/10/2012;1220
+SKU-0000074;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;01/11/2012;123
+SKU-0000075;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1004;Artur Moreira;SP8823;São Paulo;São Paulo;01/12/2012;445
+SKU-0000076;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1005;Rodrigo Fagundes;SP8823;São Paulo;São Paulo;02/01/2013;345
+SKU-0000077;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/02/2013;1220
+SKU-0000078;Grill;Eletrodomésticos;Doméstico;Panasonic;1007;Fernando Zambrini;SP8823;São Paulo;São Paulo;02/03/2013;124
+SKU-0000079;Grill;Eletrodomésticos;Doméstico;Panasonic;1003;Mateus Gonçalves;A9990;Belo Horizonte;Minas Gerais;02/04/2013;123
+SKU-0000080;Grill;Eletrodomésticos;Doméstico;Panasonic;1002;André Pereira;SP8823;São Paulo;São Paulo;02/05/2013;230
+SKU-0000081;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/06/2013;290
+SKU-0000082;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;SP8823;São Paulo;São Paulo;02/07/2013;290
+SKU-0000083;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;SP8823;São Paulo;São Paulo;02/08/2013;290
+SKU-0000084;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1009;Ana Teixeira;A9990;Belo Horizonte;Minas Gerais;02/09/2013;290
+SKU-0000085;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/10/2013;1100
+SKU-0000086;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/11/2013;1234.89
+SKU-0000087;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;02/12/2013;123
+SKU-0000088;Fritadeira;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;P0761;Cascavel;Paraná;02/01/2013;297
+SKU-0000089;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1005;Rodrigo Fagundes;SA7761;Salvador;Bahia;02/02/2013;1299
+SKU-0000090;Aspirador;Eletroportáteis;Doméstico;Britânia;1006;Josias Silva;P0761;Cascavel;Paraná;02/03/2013;167
+SKU-0000091;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1007;Fernando Zambrini;SA7761;Salvador;Bahia;02/04/2013;1399
+SKU-0000092;Aspirador;Eletroportáteis;Doméstico;Britânia;1003;Mateus Gonçalves;V7654;Vitória;Espírito Santo;02/05/2013;168
+SKU-0000093;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;02/06/2013;1278
+SKU-0000094;Aspirador;Eletroportáteis;Doméstico;Britânia;1009;Ana Teixeira;SP8823;São Paulo;São Paulo;02/07/2013;150
+SKU-0000095;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1006;Josias Silva;A9990;Belo Horizonte;Minas Gerais;02/08/2013;1190
+SKU-0000096;Aspirador;Eletroportáteis;Doméstico;Britânia;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/09/2013;149
+SKU-0000097;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1003;Mateus Gonçalves;R1296;Rio de Janeiro;Rio de Janeiro;02/10/2013;1290
+SKU-0000098;Aspirador;Eletroportáteis;Doméstico;Britânia;1004;Artur Moreira;SP8823;São Paulo;São Paulo;02/11/2013;135
+SKU-0000099;Aspirador;Eletroportáteis;Doméstico;Britânia;1005;Rodrigo Fagundes;SP8823;São Paulo;São Paulo;02/12/2013;139
+SKU-0000100;Aspirador;Eletroportáteis;Doméstico;Britânia;1006;Josias Silva;SP8823;São Paulo;São Paulo;02/01/2013;128
+SKU-0000101;Aspirador;Eletroportáteis;Doméstico;Britânia;1007;Fernando Zambrini;SP8823;São Paulo;São Paulo;02/02/2013;138
+SKU-0000102;Aspirador;Eletroportáteis;Doméstico;Britânia;1003;Mateus Gonçalves;SP8823;São Paulo;São Paulo;02/03/2013;137
+SKU-0000103;Aspirador;Eletroportáteis;Doméstico;Britânia;1002;André Pereira;SP8823;São Paulo;São Paulo;02/04/2013;126
+SKU-0000104;Aspirador;Eletroportáteis;Doméstico;Britânia;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;02/05/2013;136
+SKU-0000105;Aspirador;Eletroportáteis;Doméstico;Britânia;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/06/2013;139
+SKU-0000106;Aspirador;Eletroportáteis;Doméstico;Britânia;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/07/2013;150
+SKU-0000107;Aspirador;Eletroportáteis;Doméstico;Britânia;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/08/2013;167
+SKU-0000108;Aspirador;Eletroportáteis;Doméstico;Britânia;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/09/2013;179
+SKU-0000109;Aspirador;Eletroportáteis;Doméstico;Britânia;1005;Rodrigo Fagundes;SP8822;São Paulo;São Paulo;02/10/2013;149
+SKU-0000110;Aspirador;Eletroportáteis;Doméstico;Britânia;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/11/2013;149
+SKU-0000111;Aspirador;Eletroportáteis;Doméstico;Britânia;1007;Fernando Zambrini;SP8822;São Paulo;São Paulo;02/12/2013;149
+SKU-0000112;Impressora Deskjet;Eletrônicos;Doméstico;HP;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/01/2013;398
+SKU-0000113;Impressora Deskjet;Eletrônicos;Doméstico;HP;1002;André Pereira;SP8822;São Paulo;São Paulo;02/02/2013;788
+SKU-0000114;Impressora Deskjet;Eletrônicos;Doméstico;HP;1001;Maria Fernandes;SP8822;São Paulo;São Paulo;02/03/2013;766
+SKU-0000115;Impressora Deskjet;Eletrônicos;Doméstico;HP;1001;Maria Fernandes;SP8822;São Paulo;São Paulo;02/04/2013;655
+SKU-0000116;Impressora Deskjet;Eletrônicos;Doméstico;HP;1001;Maria Fernandes;SP8822;São Paulo;São Paulo;02/05/2013;788
+SKU-0000117;Impressora Deskjet;Eletrônicos;Doméstico;HP;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;02/06/2013;655
+SKU-0000118;Impressora Deskjet;Eletrônicos;Doméstico;HP;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/07/2013;655
+SKU-0000119;Impressora Deskjet;Eletrônicos;Doméstico;HP;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/08/2013;455.12
+SKU-0000120;Impressora Deskjet;Eletrônicos;Doméstico;HP;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/09/2013;262
+SKU-0000121;Impressora Deskjet;Eletrônicos;Doméstico;HP;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/10/2013;445
+SKU-0000122;Impressora Deskjet;Eletrônicos;Doméstico;HP;1005;Rodrigo Fagundes;SP8822;São Paulo;São Paulo;02/11/2013;655
+SKU-0000123;Impressora Deskjet;Eletrônicos;Doméstico;HP;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/12/2013;555.32
+SKU-0000124;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;SP8822;São Paulo;São Paulo;02/01/2013;456
+SKU-0000125;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/02/2013;277
+SKU-0000126;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;SP8822;São Paulo;São Paulo;02/03/2013;877
+SKU-0000127;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;02/04/2013;988
+SKU-0000128;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/05/2013;567.32
+SKU-0000129;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;P0761;Cascavel;Paraná;02/06/2013;799.9
+SKU-0000130;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/07/2013;1200
+SKU-0000131;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/08/2013;345
+SKU-0000132;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1005;Rodrigo Fagundes;SP8822;São Paulo;São Paulo;02/09/2013;433
+SKU-0000133;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/10/2013;345.89
+SKU-0000134;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;SP8822;São Paulo;São Paulo;02/11/2013;467
+SKU-0000135;Secadora Vapor;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/12/2013;1220
+SKU-0000136;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;A9990;Belo Horizonte;Minas Gerais;09/01/2013;1233
+SKU-0000137;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1009;Ana Teixeira;A9990;Belo Horizonte;Minas Gerais;10/01/2013;1233
+SKU-0000138;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;A9990;Belo Horizonte;Minas Gerais;11/02/2013;721
+SKU-0000139;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;V7654;Vitória;Espírito Santo;12/03/2013;671
+SKU-0000140;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1003;Mateus Gonçalves;V7654;Vitória;Espírito Santo;13/03/2013;1899
+SKU-0000141;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1004;Artur Moreira;A9990;Belo Horizonte;Minas Gerais;14/03/2013;346
+SKU-0000142;Sony Experia XA;Celulares;Doméstico;Sony;1005;Rodrigo Fagundes;A9990;Belo Horizonte;Minas Gerais;15/04/2013;699
+SKU-0000143;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;A9990;Belo Horizonte;Minas Gerais;16/04/2013;876
+SKU-0000144;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;V7654;Vitória;Espírito Santo;17/05/2013;655
+SKU-0000145;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;V7654;Vitória;Espírito Santo;18/05/2013;1200
+SKU-0000146;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;A9990;Belo Horizonte;Minas Gerais;19/05/2013;1229
+SKU-0000147;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1001;Maria Fernandes;A9990;Belo Horizonte;Minas Gerais;20/06/2013;1228
+SKU-0000148;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1001;Maria Fernandes;A9990;Belo Horizonte;Minas Gerais;21/07/2013;3999
+SKU-0000149;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1001;Maria Fernandes;V7654;Vitória;Espírito Santo;22/07/2013;1229
+SKU-0000150;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1009;Ana Teixeira;V7654;Vitória;Espírito Santo;23/09/2013;1299
+SKU-0000151;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1004;Artur Moreira;V7654;Vitória;Espírito Santo;24/10/2013;3999
+SKU-0000152;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;A9990;Belo Horizonte;Minas Gerais;25/11/2013;1234
+SKU-0000153;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;V7654;Vitória;Espírito Santo;26/11/2013;875
+SKU-0000154;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1005;Rodrigo Fagundes;A9990;Belo Horizonte;Minas Gerais;27/11/2013;433
+SKU-0000155;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;04/10/2014;3999
+SKU-0000156;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;SP8822;São Paulo;São Paulo;01/01/2014;1288
+SKU-0000157;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/02/2014;3999
+SKU-0000158;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1006;Josias Silva;SP8822;São Paulo;São Paulo;03/03/2014;3999
+SKU-0000159;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1004;Artur Moreira;SP8822;São Paulo;São Paulo;04/04/2014;3999
+SKU-0000160;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1004;Artur Moreira;SP8822;São Paulo;São Paulo;04/05/2014;3999
+SKU-0000161;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;SP8822;São Paulo;São Paulo;04/06/2014;1234
+SKU-0000162;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1004;Artur Moreira;A9990;Belo Horizonte;Minas Gerais;04/07/2014;1235
+SKU-0000163;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8822;São Paulo;São Paulo;04/08/2014;1200
+SKU-0000164;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1005;Rodrigo Fagundes;SP8822;São Paulo;São Paulo;04/09/2014;788
+SKU-0000165;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;A9990;Belo Horizonte;Minas Gerais;04/11/2014;761
+SKU-0000166;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1004;Artur Moreira;SP8822;São Paulo;São Paulo;04/11/2014;987
+SKU-0000167;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;04/12/2014;1567
+SKU-0000168;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;04/12/2014;1287
+SKU-0000169;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;A9990;Belo Horizonte;Minas Gerais;02/01/2015;1287
+SKU-0000170;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1001;Maria Fernandes;SP8822;São Paulo;São Paulo;02/02/2015;3999
+SKU-0000171;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1002;André Pereira;S6543;Osasco;São Paulo;02/03/2015;3999
+SKU-0000172;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1002;André Pereira;S6543;Osasco;São Paulo;02/04/2015;3999
+SKU-0000173;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1004;Artur Moreira;S6543;Osasco;São Paulo;02/05/2015;3999
+SKU-0000174;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1002;André Pereira;B7659;Campinas;São Paulo;02/06/2015;3999
+SKU-0000175;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1002;André Pereira;B7659;Campinas;São Paulo;02/07/2015;3999
+SKU-0000176;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/08/2015;3999
+SKU-0000177;Samsung Galaxy 8;Celulares;Corporativo;Samsung;1002;André Pereira;SP8822;São Paulo;São Paulo;02/09/2015;3999
+SKU-0000178;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;SP8822;São Paulo;São Paulo;02/10/2015;1230
+SKU-0000179;Morotola Moto G5;Celulares;Doméstico;Motorola;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/11/2015;1230
+SKU-0000180;Morotola Moto G5;Celulares;Doméstico;Motorola;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/12/2015;1230
+SKU-0000181;Morotola Moto G5;Celulares;Doméstico;Motorola;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/01/2015;1230
+SKU-0000182;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/02/2015;1220
+SKU-0000183;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;SP8822;São Paulo;São Paulo;02/03/2015;1234
+SKU-0000184;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/04/2015;1579
+SKU-0000185;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;SP8822;São Paulo;São Paulo;02/05/2015;1288
+SKU-0000186;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;02/06/2015;1222
+SKU-0000187;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/07/2015;1210
+SKU-0000188;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/08/2015;1212
+SKU-0000189;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/09/2015;1899
+SKU-0000190;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/10/2015;567
+SKU-0000191;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1005;Rodrigo Fagundes;SP8822;São Paulo;São Paulo;02/11/2015;189
+SKU-0000192;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/12/2015;1212
+SKU-0000193;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1007;Fernando Zambrini;R1296;Rio de Janeiro;Rio de Janeiro;01/01/2014;1234
+SKU-0000194;Aspirador;Eletroportáteis;Doméstico;Britânia;1003;Mateus Gonçalves;R1296;Rio de Janeiro;Rio de Janeiro;01/02/2014;763
+SKU-0000195;Aspirador;Eletroportáteis;Doméstico;Britânia;1002;André Pereira;V7654;Vitória;Espírito Santo;01/03/2014;149
+SKU-0000196;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;A9990;Belo Horizonte;Minas Gerais;01/04/2014;148
+SKU-0000197;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;SP8822;São Paulo;São Paulo;01/05/2014;139
+SKU-0000198;Fritadeira;Eletroportáteis;Doméstico;Arno;1001;Maria Fernandes;SP8822;São Paulo;São Paulo;01/06/2014;138
+SKU-0000199;Fritadeira;Eletroportáteis;Doméstico;Arno;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;01/07/2014;137
+SKU-0000200;Fritadeira;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;SP8822;São Paulo;São Paulo;01/08/2014;121
+SKU-0000201;Fritadeira;Eletroportáteis;Doméstico;Arno;1007;Fernando Zambrini;R1296;Rio de Janeiro;Rio de Janeiro;01/09/2014;129
+SKU-0000202;Fritadeira;Eletroportáteis;Doméstico;Arno;1006;Josias Silva;V7654;Vitória;Espírito Santo;01/10/2014;128
+SKU-0000203;Fritadeira;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;SP8822;São Paulo;São Paulo;01/11/2014;129
+SKU-0000204;Fritadeira;Eletroportáteis;Doméstico;Arno;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;01/12/2014;129
+SKU-0000205;Fritadeira;Eletroportáteis;Doméstico;Arno;1002;André Pereira;SP8822;São Paulo;São Paulo;02/01/2015;128
+SKU-0000206;Fritadeira;Eletroportáteis;Doméstico;Arno;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/02/2015;129
+SKU-0000207;Fritadeira;Eletroportáteis;Doméstico;Arno;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/03/2015;121
+SKU-0000208;Fritadeira;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/04/2015;121
+SKU-0000209;Fritadeira;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/05/2015;121
+SKU-0000210;Fritadeira;Eletroportáteis;Doméstico;Arno;1007;Fernando Zambrini;V7654;Vitória;Espírito Santo;02/06/2015;121
+SKU-0000211;Fritadeira;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;R1296;Rio de Janeiro;Rio de Janeiro;02/07/2015;121
+SKU-0000212;Fritadeira;Eletroportáteis;Doméstico;Arno;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/08/2015;121
+SKU-0000213;Fritadeira;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;A9990;Belo Horizonte;Minas Gerais;02/09/2015;121
+SKU-0000214;Fritadeira;Eletroportáteis;Doméstico;Arno;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/10/2015;121
+SKU-0000215;Fritadeira;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/11/2015;121
+SKU-0000216;Fritadeira;Eletroportáteis;Doméstico;Arno;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/12/2015;121
+SKU-0000217;Aspirador;Eletroportáteis;Doméstico;Britânia;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;01/01/2014;121
+SKU-0000218;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;SP8822;São Paulo;São Paulo;01/02/2014;355
+SKU-0000219;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;SP8822;São Paulo;São Paulo;01/03/2014;355
+SKU-0000220;Grill;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;SP8822;São Paulo;São Paulo;01/04/2014;366
+SKU-0000221;Grill;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;SP8822;São Paulo;São Paulo;01/05/2014;388
+SKU-0000222;Grill;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;SP8822;São Paulo;São Paulo;01/06/2014;124
+SKU-0000223;Grill;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;SP8822;São Paulo;São Paulo;01/07/2014;120
+SKU-0000224;Grill;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;V7654;Vitória;Espírito Santo;01/08/2014;190
+SKU-0000225;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;R1296;Rio de Janeiro;Rio de Janeiro;01/09/2014;675.9
+SKU-0000226;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;A9990;Belo Horizonte;Minas Gerais;01/10/2014;455
+SKU-0000227;Forno-Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;SP8822;São Paulo;São Paulo;01/11/2014;377
+SKU-0000228;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;SP8822;São Paulo;São Paulo;01/12/2014;678.12
+SKU-0000229;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/01/2015;789.45
+SKU-0000230;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/02/2015;890.32
+SKU-0000231;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/03/2015;433
+SKU-0000232;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1007;Fernando Zambrini;A9990;Belo Horizonte;Minas Gerais;02/04/2015;455
+SKU-0000233;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/05/2015;677
+SKU-0000234;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;02/06/2015;345
+SKU-0000235;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;SP8822;São Paulo;São Paulo;02/07/2015;713
+SKU-0000236;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/08/2015;322
+SKU-0000237;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1006;Josias Silva;A9990;Belo Horizonte;Minas Gerais;02/09/2015;222
+SKU-0000238;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;SP8822;São Paulo;São Paulo;02/10/2015;566
+SKU-0000239;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/11/2015;678.34
+SKU-0000240;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;SP8822;São Paulo;São Paulo;02/12/2015;456
+SKU-0000241;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1006;Josias Silva;P0761;Cascavel;Paraná;02/01/2015;290
+SKU-0000242;Aspirador;Eletroportáteis;Doméstico;Britânia;1007;Fernando Zambrini;SA7761;Salvador;Bahia;02/02/2015;121
+SKU-0000243;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1003;Mateus Gonçalves;P0761;Cascavel;Paraná;02/03/2015;455
+SKU-0000244;Aspirador;Eletroportáteis;Doméstico;Britânia;1002;André Pereira;SA7761;Salvador;Bahia;02/04/2015;121
+SKU-0000245;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1001;Maria Fernandes;V7654;Vitória;Espírito Santo;02/05/2015;1290
+SKU-0000246;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/06/2015;121
+SKU-0000247;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1001;Maria Fernandes;SP8822;São Paulo;São Paulo;02/07/2015;1229
+SKU-0000248;Aspirador;Eletroportáteis;Doméstico;Britânia;1009;Ana Teixeira;A9990;Belo Horizonte;Minas Gerais;02/08/2015;121
+SKU-0000249;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1004;Artur Moreira;SP8822;São Paulo;São Paulo;02/09/2015;1321
+SKU-0000250;Aspirador;Eletroportáteis;Doméstico;Britânia;1007;Fernando Zambrini;R1296;Rio de Janeiro;Rio de Janeiro;02/10/2015;121
+SKU-0000251;Ar Condicionado;Eletrodomésticos;Industrial;Samsung;1006;Josias Silva;SP8822;São Paulo;São Paulo;02/11/2015;1345
+SKU-0000252;Aspirador;Eletroportáteis;Doméstico;Britânia;1005;Rodrigo Fagundes;SP8822;São Paulo;São Paulo;02/12/2015;121
+SKU-0000253;Aspirador;Eletroportáteis;Doméstico;Britânia;1009;Ana Teixeira;SP8821;São Paulo;São Paulo;02/01/2015;167
+SKU-0000254;Aspirador;Eletroportáteis;Doméstico;Britânia;1002;André Pereira;SP8821;São Paulo;São Paulo;02/02/2015;167
+SKU-0000255;Aspirador;Eletroportáteis;Doméstico;Britânia;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;02/03/2015;167
+SKU-0000256;Aspirador;Eletroportáteis;Doméstico;Britânia;1006;Josias Silva;SP8821;São Paulo;São Paulo;02/04/2015;167
+SKU-0000257;Aspirador;Eletroportáteis;Doméstico;Britânia;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/05/2015;167
+SKU-0000258;Aspirador;Eletroportáteis;Doméstico;Britânia;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/06/2015;167
+SKU-0000259;Aspirador;Eletroportáteis;Doméstico;Britânia;1007;Fernando Zambrini;SP8821;São Paulo;São Paulo;02/07/2015;167
+SKU-0000260;Aspirador;Eletroportáteis;Doméstico;Britânia;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/08/2015;167
+SKU-0000261;Aspirador;Eletroportáteis;Doméstico;Britânia;1006;Josias Silva;SP8821;São Paulo;São Paulo;02/09/2015;167
+SKU-0000262;Aspirador;Eletroportáteis;Doméstico;Britânia;1005;Rodrigo Fagundes;SP8821;São Paulo;São Paulo;02/10/2015;167
+SKU-0000263;Aspirador;Eletroportáteis;Doméstico;Britânia;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;02/11/2015;167
+SKU-0000264;Aspirador;Eletroportáteis;Doméstico;Britânia;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/12/2015;167
+SKU-0000265;Aspirador;Eletroportáteis;Doméstico;Britânia;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;02/01/2015;167
+SKU-0000266;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1009;Ana Teixeira;SP8821;São Paulo;São Paulo;02/02/2015;713
+SKU-0000267;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1002;André Pereira;SP8821;São Paulo;São Paulo;02/03/2015;713
+SKU-0000268;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1001;Maria Fernandes;SP8821;São Paulo;São Paulo;02/04/2015;713
+SKU-0000269;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1002;André Pereira;SP8821;São Paulo;São Paulo;02/05/2015;713
+SKU-0000270;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1002;André Pereira;SP8821;São Paulo;São Paulo;02/06/2015;713
+SKU-0000271;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/07/2015;456
+SKU-0000272;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1002;André Pereira;SP8821;São Paulo;São Paulo;02/08/2015;713
+SKU-0000273;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1002;André Pereira;SP8821;São Paulo;São Paulo;02/09/2015;713
+SKU-0000274;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/10/2015;765.34
+SKU-0000275;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1002;André Pereira;SP8821;São Paulo;São Paulo;02/11/2015;713
+SKU-0000276;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1002;André Pereira;SP8821;São Paulo;São Paulo;02/12/2015;713
+SKU-0000277;Impressora Deskjet;Eletrônicos;Doméstico;Epson;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/01/2015;234.12
+SKU-0000278;Ventilador;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;SP8821;São Paulo;São Paulo;02/02/2015;134
+SKU-0000279;Ventilador;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;P0761;Cascavel;Paraná;02/03/2015;123
+SKU-0000280;Ventilador;Eletroportáteis;Doméstico;Arno;1003;Mateus Gonçalves;SP8821;São Paulo;São Paulo;02/04/2015;167
+SKU-0000281;Ventilador;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;S6543;Osasco;São Paulo;02/05/2015;189
+SKU-0000282;Ventilador;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;P0761;Cascavel;Paraná;02/06/2015;134
+SKU-0000283;Ventilador;Eletroportáteis;Doméstico;Arno;1001;Maria Fernandes;S6543;Osasco;São Paulo;02/07/2015;156
+SKU-0000284;Ventilador;Eletroportáteis;Doméstico;Arno;1001;Maria Fernandes;S6543;Osasco;São Paulo;02/08/2015;123
+SKU-0000285;Ventilador;Eletroportáteis;Doméstico;Arno;1001;Maria Fernandes;S6543;Osasco;São Paulo;02/09/2015;156
+SKU-0000286;Ventilador;Eletroportáteis;Doméstico;Arno;1009;Ana Teixeira;SP8821;São Paulo;São Paulo;02/10/2015;178
+SKU-0000287;Ventilador;Eletroportáteis;Doméstico;Arno;1008;Aline Sutter;SP8821;São Paulo;São Paulo;02/11/2015;139
+SKU-0000288;Ventilador;Eletroportáteis;Doméstico;Arno;1007;Fernando Zambrini;SP8821;São Paulo;São Paulo;02/12/2015;123
+SKU-0000289;Ventilador;Eletroportáteis;Doméstico;Arno;1009;Ana Teixeira;A9990;Belo Horizonte;Minas Gerais;09/01/2015;123
+SKU-0000290;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;A9990;Belo Horizonte;Minas Gerais;10/01/2015;1299
+SKU-0000291;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;A9991;Belo Horizonte;Minas Gerais;11/02/2015;761
+SKU-0000292;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;V7654;Vitória;Espírito Santo;12/03/2015;765
+SKU-0000293;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;V7654;Vitória;Espírito Santo;13/03/2015;456
+SKU-0000294;Morotola Moto G5;Celulares;Doméstico;Motorola;1006;Josias Silva;A9991;Belo Horizonte;Minas Gerais;14/03/2015;1230
+SKU-0000295;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1007;Fernando Zambrini;A9991;Belo Horizonte;Minas Gerais;15/04/2015;1212
+SKU-0000296;Morotola Moto G5;Celulares;Doméstico;Motorola;1004;Artur Moreira;A9991;Belo Horizonte;Minas Gerais;16/04/2015;1230
+SKU-0000297;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;V7654;Vitória;Espírito Santo;17/05/2015;1299
+SKU-0000298;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;V7654;Vitória;Espírito Santo;18/05/2015;1299
+SKU-0000299;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;A9991;Belo Horizonte;Minas Gerais;19/05/2015;1299
+SKU-0000300;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;A9991;Belo Horizonte;Minas Gerais;20/06/2015;1299
+SKU-0000301;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;A9991;Belo Horizonte;Minas Gerais;21/07/2015;456
+SKU-0000302;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;V7654;Vitória;Espírito Santo;22/07/2015;1230
+SKU-0000303;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;V7654;Vitória;Espírito Santo;23/09/2015;409
+SKU-0000304;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;V7654;Vitória;Espírito Santo;24/10/2015;766
+SKU-0000305;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;A9991;Belo Horizonte;Minas Gerais;25/11/2015;1230
+SKU-0000306;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;V7654;Vitória;Espírito Santo;26/11/2015;567
+SKU-0000307;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;A9991;Belo Horizonte;Minas Gerais;27/11/2015;1299
+SKU-0000308;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;R1296;Rio de Janeiro;Rio de Janeiro;04/10/2014;1299
+SKU-0000309;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;04/10/2014;1230
+SKU-0000310;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;01/01/2014;1299
+SKU-0000311;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;02/02/2014;1230
+SKU-0000312;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;03/03/2014;1230
+SKU-0000313;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;04/04/2014;1230
+SKU-0000314;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;04/05/2014;1230
+SKU-0000315;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;R1296;Rio de Janeiro;Rio de Janeiro;04/06/2014;1299
+SKU-0000316;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;04/07/2014;1299
+SKU-0000317;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;R1296;Rio de Janeiro;Rio de Janeiro;04/08/2014;137
+SKU-0000318;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;R1296;Rio de Janeiro;Rio de Janeiro;04/09/2014;632
+SKU-0000319;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;R1296;Rio de Janeiro;Rio de Janeiro;04/11/2014;761
+SKU-0000320;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;R1296;Rio de Janeiro;Rio de Janeiro;04/11/2014;1299
+SKU-0000321;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;04/12/2014;1299
+SKU-0000322;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;04/12/2014;1299
+SKU-0000323;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;R1296;Rio de Janeiro;Rio de Janeiro;02/01/2015;543
+SKU-0000324;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;02/02/2015;1230
+SKU-0000325;Morotola Moto G5;Celulares;Doméstico;Motorola;1002;André Pereira;R1298;Campos;Rio de Janeiro;02/03/2015;1230
+SKU-0000326;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1298;Campos;Rio de Janeiro;02/04/2015;1230
+SKU-0000327;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1298;Campos;Rio de Janeiro;02/05/2015;1230
+SKU-0000328;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/06/2015;1230
+SKU-0000329;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/07/2015;1230
+SKU-0000330;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/08/2015;1230
+SKU-0000331;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/09/2015;1230
+SKU-0000332;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/10/2015;1230
+SKU-0000333;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/11/2015;1230
+SKU-0000334;Morotola Moto G5;Celulares;Doméstico;Motorola;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/12/2015;1230
+SKU-0000335;Morotola Moto G5;Celulares;Doméstico;Motorola;1005;Rodrigo Fagundes;R1296;Rio de Janeiro;Rio de Janeiro;02/01/2015;1230
+SKU-0000336;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;02/02/2015;1299
+SKU-0000337;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;R1296;Rio de Janeiro;Rio de Janeiro;02/03/2015;1299
+SKU-0000338;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/04/2015;1299
+SKU-0000339;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;R1296;Rio de Janeiro;Rio de Janeiro;02/05/2015;899
+SKU-0000340;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;R1296;Rio de Janeiro;Rio de Janeiro;02/06/2015;345.87
+SKU-0000341;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;R1296;Rio de Janeiro;Rio de Janeiro;02/07/2015;456
+SKU-0000342;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;R1296;Rio de Janeiro;Rio de Janeiro;02/08/2015;1299
+SKU-0000343;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1296;Rio de Janeiro;Rio de Janeiro;02/09/2015;1299
+SKU-0000344;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1296;Rio de Janeiro;Rio de Janeiro;02/10/2015;1299
+SKU-0000345;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;R1296;Rio de Janeiro;Rio de Janeiro;02/11/2015;567
+SKU-0000346;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;02/12/2015;1299
+SKU-0000347;Geladeira Duplex;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;01/01/2014;1299
+SKU-0000348;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/02/2014;167
+SKU-0000349;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/03/2014;167
+SKU-0000350;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1297;Petrópolis;Rio de Janeiro;01/04/2014;167
+SKU-0000351;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/05/2014;149
+SKU-0000352;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/06/2014;149
+SKU-0000353;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/07/2014;149
+SKU-0000354;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/08/2014;149
+SKU-0000355;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/09/2014;149
+SKU-0000356;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1297;Petrópolis;Rio de Janeiro;01/10/2014;149
+SKU-0000357;Aspirador;Eletroportáteis;Doméstico;Britânia;1005;Rodrigo Fagundes;R1297;Petrópolis;Rio de Janeiro;01/11/2014;149
+SKU-0000358;Aspirador;Eletroportáteis;Doméstico;Britânia;1002;André Pereira;R1297;Petrópolis;Rio de Janeiro;01/12/2014;149
+SKU-0000359;Aspirador;Eletroportáteis;Doméstico;Britânia;1009;Ana Teixeira;R1297;Petrópolis;Rio de Janeiro;02/01/2015;149
+SKU-0000360;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1297;Petrópolis;Rio de Janeiro;02/02/2015;149
+SKU-0000361;Aspirador;Eletroportáteis;Doméstico;Britânia;1003;Mateus Gonçalves;R1297;Petrópolis;Rio de Janeiro;02/03/2015;149
+SKU-0000362;Aspirador;Eletroportáteis;Doméstico;Britânia;1004;Artur Moreira;R1297;Petrópolis;Rio de Janeiro;02/04/2015;765.45
+SKU-0000363;Aspirador;Eletroportáteis;Doméstico;Britânia;1005;Rodrigo Fagundes;R1297;Petrópolis;Rio de Janeiro;02/05/2015;149
+SKU-0000364;Aspirador;Eletroportáteis;Doméstico;Britânia;1009;Ana Teixeira;R1297;Petrópolis;Rio de Janeiro;02/06/2015;149
+SKU-0000365;Aspirador;Eletroportáteis;Doméstico;Britânia;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;02/07/2015;149
+SKU-0000366;Aspirador;Eletroportáteis;Doméstico;Britânia;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/08/2015;149
+SKU-0000367;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/09/2015;149
+SKU-0000368;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1002;André Pereira;R1298;Campos;Rio de Janeiro;02/10/2015;149
+SKU-0000369;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;02/11/2015;149
+SKU-0000370;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/12/2015;149
+SKU-0000371;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1001;Maria Fernandes;R1298;Campos;Rio de Janeiro;01/01/2014;149
+SKU-0000372;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/02/2014;1299
+SKU-0000373;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/03/2014;455
+SKU-0000374;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/04/2014;455
+SKU-0000375;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/05/2014;455
+SKU-0000376;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/06/2014;455
+SKU-0000377;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/07/2014;455
+SKU-0000378;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/08/2014;455
+SKU-0000379;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;01/09/2014;123
+SKU-0000380;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;01/10/2014;455
+SKU-0000381;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;R1295;Rio de Janeiro;Rio de Janeiro;01/11/2014;455
+SKU-0000382;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;01/12/2014;455
+SKU-0000383;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1003;Mateus Gonçalves;R1295;Rio de Janeiro;Rio de Janeiro;02/01/2015;566
+SKU-0000384;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1004;Artur Moreira;R1295;Rio de Janeiro;Rio de Janeiro;02/02/2015;788.9
+SKU-0000385;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/03/2015;567
+SKU-0000386;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1009;Ana Teixeira;R1295;Rio de Janeiro;Rio de Janeiro;02/04/2015;455
+SKU-0000387;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;02/05/2015;455
+SKU-0000388;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/06/2015;455
+SKU-0000389;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/07/2015;123
+SKU-0000390;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;02/08/2015;455
+SKU-0000391;Micro-Ondas;Eletrodomésticos;Doméstico;Consul;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;02/09/2015;455
+SKU-0000392;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/10/2015;455
+SKU-0000393;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/11/2015;455
+SKU-0000394;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/12/2015;455
+SKU-0000395;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/02/2015;455
+SKU-0000396;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/04/2015;455
+SKU-0000397;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/05/2015;455
+SKU-0000398;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/06/2015;455
+SKU-0000399;Micro-Ondas;Eletrodomésticos;Doméstico;Panasonic;1001;Maria Fernandes;R1295;Rio de Janeiro;Rio de Janeiro;02/07/2015;455
+SKU-0000400;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1001;Maria Fernandes;R1298;Campos;Rio de Janeiro;02/08/2015;149
+SKU-0000401;Ar Condicionado;Eletrodomésticos;Doméstico;Samsung;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/09/2015;1390
+SKU-0000402;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1001;Maria Fernandes;R1298;Campos;Rio de Janeiro;02/10/2015;149
+SKU-0000403;Ar Condicionado;Eletrodomésticos;Doméstico;Samsung;1004;Artur Moreira;R1295;Rio de Janeiro;Rio de Janeiro;02/11/2015;1120
+SKU-0000404;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1001;Maria Fernandes;R1298;Campos;Rio de Janeiro;02/12/2015;149
+SKU-0000405;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1002;André Pereira;R1298;Campos;Rio de Janeiro;02/01/2015;149
+SKU-0000406;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1002;André Pereira;R1298;Campos;Rio de Janeiro;02/02/2015;149
+SKU-0000407;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1001;Maria Fernandes;R1298;Campos;Rio de Janeiro;02/03/2015;149
+SKU-0000408;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1001;Maria Fernandes;R1298;Campos;Rio de Janeiro;02/04/2015;149
+SKU-0000409;Processador de Alimentos;Eletroportáteis;Doméstico;Philco;1009;Ana Teixeira;R1295;Rio de Janeiro;Rio de Janeiro;02/05/2015;149
+SKU-0000410;Liquidificador;Eletroportáteis;Doméstico;Arno;1006;Josias Silva;R1295;Rio de Janeiro;Rio de Janeiro;02/06/2015;149
+SKU-0000411;Liquidificador;Eletroportáteis;Doméstico;Arno;1007;Fernando Zambrini;R1295;Rio de Janeiro;Rio de Janeiro;02/07/2015;149
+SKU-0000412;Liquidificador;Eletroportáteis;Doméstico;Arno;1006;Josias Silva;R1295;Rio de Janeiro;Rio de Janeiro;02/08/2015;149
+SKU-0000413;Liquidificador;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/09/2015;149
+SKU-0000414;Liquidificador;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/10/2015;149
+SKU-0000415;Liquidificador;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/11/2015;149
+SKU-0000416;Liquidificador;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/12/2015;121
+SKU-0000417;Liquidificador;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/01/2015;121
+SKU-0000418;Impressora Deskjet;Eletrônicos;Doméstico;HP;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/02/2015;788
+SKU-0000419;Impressora Deskjet;Eletrônicos;Doméstico;HP;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/03/2015;900
+SKU-0000420;Impressora Deskjet;Eletrônicos;Doméstico;HP;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/04/2015;455
+SKU-0000421;Impressora Deskjet;Eletrônicos;Doméstico;HP;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/05/2015;390
+SKU-0000422;Impressora Deskjet;Eletrônicos;Doméstico;HP;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/06/2015;899
+SKU-0000423;Impressora Deskjet;Eletrônicos;Doméstico;HP;1005;Rodrigo Fagundes;R1295;Rio de Janeiro;Rio de Janeiro;02/07/2015;455
+SKU-0000424;Impressora Deskjet;Eletrônicos;Doméstico;HP;1008;Aline Sutter;R1295;Rio de Janeiro;Rio de Janeiro;02/08/2015;234
+SKU-0000425;Impressora Deskjet;Eletrônicos;Doméstico;HP;1008;Aline Sutter;R1295;Rio de Janeiro;Rio de Janeiro;02/09/2015;289
+SKU-0000426;Impressora Deskjet;Eletrônicos;Doméstico;HP;1008;Aline Sutter;R1295;Rio de Janeiro;Rio de Janeiro;02/10/2015;433
+SKU-0000427;Impressora Deskjet;Eletrônicos;Doméstico;HP;1008;Aline Sutter;R1295;Rio de Janeiro;Rio de Janeiro;02/11/2015;345
+SKU-0000428;Impressora Deskjet;Eletrônicos;Doméstico;HP;1008;Aline Sutter;R1295;Rio de Janeiro;Rio de Janeiro;02/12/2015;346
+SKU-0000429;Impressora Deskjet;Eletrônicos;Doméstico;HP;1008;Aline Sutter;R1295;Rio de Janeiro;Rio de Janeiro;02/01/2015;456
+SKU-0000430;Ventilador;Eletroportáteis;Doméstico;Arno;1009;Ana Teixeira;R1295;Rio de Janeiro;Rio de Janeiro;02/02/2015;145
+SKU-0000431;Ventilador;Eletroportáteis;Doméstico;Arno;1006;Josias Silva;R1295;Rio de Janeiro;Rio de Janeiro;02/03/2015;124
+SKU-0000432;Ventilador;Eletroportáteis;Doméstico;Arno;1006;Josias Silva;R1297;Petrópolis;Rio de Janeiro;02/05/2015;128
+SKU-0000433;Ventilador;Eletroportáteis;Doméstico;Arno;1003;Mateus Gonçalves;R1297;Petrópolis;Rio de Janeiro;02/07/2015;127
+SKU-0000434;Ventilador;Eletroportáteis;Doméstico;Arno;1004;Artur Moreira;R1297;Petrópolis;Rio de Janeiro;02/08/2015;12
+SKU-0000435;Ventilador;Eletroportáteis;Doméstico;Arno;1005;Rodrigo Fagundes;R1297;Petrópolis;Rio de Janeiro;02/09/2015;124
+SKU-0000436;Ventilador;Eletroportáteis;Doméstico;Arno;1006;Josias Silva;R1295;Rio de Janeiro;Rio de Janeiro;02/10/2015;124
+SKU-0000437;Ventilador;Eletroportáteis;Doméstico;Arno;1007;Fernando Zambrini;R1295;Rio de Janeiro;Rio de Janeiro;02/11/2015;128
+SKU-0000438;Ventilador;Eletroportáteis;Doméstico;Arno;1003;Mateus Gonçalves;R1295;Rio de Janeiro;Rio de Janeiro;02/12/2015;134
+SKU-0000439;Ventilador;Eletroportáteis;Doméstico;Arno;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;09/01/2015;143
+SKU-0000440;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;10/01/2015;1234
+SKU-0000441;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;11/02/2015;1234
+SKU-0000442;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;12/03/2015;1234
+SKU-0000443;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;13/03/2015;1234
+SKU-0000444;Morotola Moto G5;Celulares;Doméstico;Motorola;1006;Josias Silva;R1295;Rio de Janeiro;Rio de Janeiro;14/03/2015;1230
+SKU-0000445;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;15/04/2015;1234
+SKU-0000446;Morotola Moto G5;Celulares;Doméstico;Motorola;1007;Fernando Zambrini;R1295;Rio de Janeiro;Rio de Janeiro;16/04/2015;1230
+SKU-0000447;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;17/05/2015;1234
+SKU-0000448;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;18/05/2015;1234
+SKU-0000449;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;19/05/2015;1234
+SKU-0000450;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;20/06/2015;1234
+SKU-0000451;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;21/07/2015;1234
+SKU-0000452;Morotola Moto G5;Celulares;Doméstico;Motorola;1007;Fernando Zambrini;R1295;Rio de Janeiro;Rio de Janeiro;22/07/2015;1230
+SKU-0000453;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;23/09/2015;1234
+SKU-0000454;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;24/10/2015;1234
+SKU-0000455;Morotola Moto G5;Celulares;Doméstico;Motorola;1008;Aline Sutter;R1295;Rio de Janeiro;Rio de Janeiro;25/11/2015;1230
+SKU-0000456;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;26/11/2015;1234
+SKU-0000457;Geladeira Duplex;Eletrodomésticos;Doméstico;Brastemp;1002;André Pereira;R1295;Rio de Janeiro;Rio de Janeiro;27/11/2015;1234
