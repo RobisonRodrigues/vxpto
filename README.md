@@ -50,6 +50,7 @@ rawdata = open('categorias_valores.csv', 'rb').read()
 encoding = chardet.detect(rawdata)['encoding']
 print('Encoding detectado: ', encoding)
 ```
+![Image](https://github.com/user-attachments/assets/b83dd718-74dc-46db-99e9-13e626e9f20a)
 ##### **2.1 → Criação do Dataframe a partir do encoding detectado**
 ```python
 df_vendas = pd.read_csv('base_vendas.csv', encoding="ISO-8859-1", sep=';')
@@ -62,10 +63,12 @@ df_categorias = pd.read_csv('categorias_valores.csv', encoding="utf-8", sep=',')
 # Verificando as linhas iniciais
 df_vendas.head()
 ```
+![Image](https://github.com/user-attachments/assets/0fe9ee66-7ea0-4d16-9135-c8d44f752ae1)
 ```python
 # Verificando as linhas iniciais
 df_categorias.head(2)
 ```
+![image](https://github.com/user-attachments/assets/dcc0bd84-9352-4767-afd6-4c9ebeed2822)
 ```python
 df_categorias.rename(columns={'Categoria': 'categoria'}, inplace=True)
 ```
@@ -161,6 +164,7 @@ for i in range(len(patches)):
 plt.tight_layout()
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/24633e09-da26-4ec1-bf88-85b3d0c82233)
 ##### 4.2 Gráfico de barras por marca de produto
 
 **Resumo do fluxo**
@@ -171,6 +175,8 @@ plt.show()
 ```python
 df_marca = df_vendas.groupby('marca_produto')['valor_venda'].sum().sort_values()
 print(df_marca)
+```
+```python
 fig, ax = plt.subplots(figsize=(10, 5))
 barras = ax.bar(df_marca.index, df_marca.values, color='teal')
 ax.set_title('Total de Vendas por Marca')
@@ -187,6 +193,7 @@ for barra in barras:
 plt.tight_layout()
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/02186d31-ef4e-4854-a473-4a54eb30c67b)
 ##### 4.3 Boxplot por categoria 
 
 ✅ Visualizar dispersão dos valores. ✅ Observa padrões e variabilidade.
@@ -200,6 +207,7 @@ plt.xticks(rotation=30)
 plt.tight_layout()
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/b90f87b1-4063-48e8-b317-b6de41a0488e)
 ### **🧩 5 → Alteração na tabela (df_merge).**
 
 ✅ Alteração da coluna `valor` para `percentual_aumento`.
@@ -250,6 +258,7 @@ for barra in barras2:
 plt.tight_layout()
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/78fb9b63-1267-4aec-8296-d1be8bae43da)
 ✅ Calculo e adição de uma nova coluna `comissão` com 2,5% para cada vendedor.
 ```python
 # Agrupamento por nome do vendedor.
@@ -257,12 +266,14 @@ plt.show()
 df_vendedor = df_merge.groupby('nome_vendedor')[['valor_venda']].sum().reset_index()
 df_vendedor
 ```
+![Image](https://github.com/user-attachments/assets/c5d42bbf-490f-42a9-ae44-892cec9d4cc8)
 ```python
 # Calculo da comissão de 2,5% para cada vendedor
 
 df_vendedor['comissao'] = df_vendedor['valor_venda'] * 0.025
 df_vendedor
 ```
+![Image](https://github.com/user-attachments/assets/13eb7785-2eb2-47d8-862b-775957eabbac)
 ✅ Gráfico com a comissão dos vendedores de acordo com o cálculo anterior.
 ```python
 # Ordena os dados
@@ -298,19 +309,22 @@ ax.set_axisbelow(True)
 plt.tight_layout()
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/afa6d16d-9835-4ce4-8729-0a377112bff9)
+
 ✅ Transformação da coluna `data_venda` em formato de data e adição de uma nova coluna `ano` com o ano da venda.
 ```python
 df_merge['data_venda'] = pd.to_datetime(df_merge['data_venda'], format='%d/%m/%Y') # Converte em um formato conhecido pelo Pandas e expecifica o formato da data na coluna indicada
 df_merge['ano'] = df_merge['data_venda'].dt.year # Extrai apenas o ano da coluna indicada
 df_merge[['data_venda', 'ano']].head()
 ```
+![Image](https://github.com/user-attachments/assets/5ca34ed4-72af-40fc-bdfa-c809e3d9375e)
 ✅ Cálculo do total de vendas por ano.
 ```python
 # Agrupamento da coluna ano para o cálculo  do `valor_venda`.
 
 df_merge.groupby('ano')['valor_venda'].sum().reset_index()
 ```
-
+![Image](https://github.com/user-attachments/assets/3ea7022e-9050-48ee-ae12-3ceaa4829d2e)
 ✅ Gráfico de pizza com a distribuição percentual de vendas por categorias.
 ```python
 # Agrupar os dados de vendas por categoria
@@ -338,6 +352,7 @@ plt.axis('equal')
 plt.tight_layout()
 plt.show()
 ```
+![Image](https://github.com/user-attachments/assets/0c0f6cc3-8fc3-4c33-9e5d-e1187f5934eb)
 **✅ Insights baseados nas análises realizadas anteriormente**
 ```python
 # Ditribuição de vendas concentrada entre os valores: 0 a 500 reais e 1500 a 2000
@@ -387,9 +402,9 @@ df_categoria.to_csv('relatorio_categoria.csv', index=False)
 try:
     conn = psycopg2.connect(
         host="localhost",
-        database="vendas_xpto",
+        database="nome_base_dados",
         user="postgres",
-        password="%Robim1997%"
+        password="sua_senha"
     )
     print("Conexão bem sucedida!")
 except Exception as e:
@@ -467,6 +482,7 @@ FROM vendas_final
 GROUP BY categoria
 ORDER BY total_vendas DESC;
 ```
+![Image](https://github.com/user-attachments/assets/73ac5d1b-8c20-4f92-97bd-3555a6ac446f)
 ```python
 # 3 vendedores que mais venderam
 ```
@@ -478,14 +494,20 @@ GROUP BY nome_vendedor
 ORDER BY total_vendas DESC
 LIMIT 3;
 ```
+![Image](https://github.com/user-attachments/assets/d5b54b38-fdc1-4c7a-826a-415e4cb9adfb)
 ```python
 # Média final de venda
+```
+```python
 %%sql
 SELECT AVG(venda_final)::numeric(18,2) AS media_valor_final
 FROM vendas_final;
 ```
+![Image](https://github.com/user-attachments/assets/ac23e10e-14d9-4576-9e34-4cb67da5a689)
 ```python
 # Produtos com maior faturamento
+```
+```python
 %%sql
 SELECT nome_produto, SUM(venda_final) AS total_venda_final
 FROM vendas_final
@@ -493,8 +515,11 @@ GROUP BY nome_produto
 ORDER BY total_venda_final DESC
 LIMIT 5;
 ```
+![Image](https://github.com/user-attachments/assets/1d957643-e8af-4f8e-af13-4742f0c11be0)
 ```python
 # Receita por ano
+```
+```python
 %%sql
 SELECT 
     EXTRACT(YEAR FROM data_venda) AS ano,
@@ -503,3 +528,4 @@ FROM vendas_final
 GROUP BY ano
 ORDER BY ano DESC;
 ```
+![Image](https://github.com/user-attachments/assets/fecc71e2-bf40-43f8-856a-615d88aa2628)
